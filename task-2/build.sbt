@@ -27,3 +27,6 @@ scalacOptions in (Compile, console) ~= (_ filterNot (_ == "-Ywarn-unused-import"
 scalacOptions in (Test, console) := (scalacOptions in (Compile, console)).value
 
 mainClass in (Compile, run) := Some("task2.Main")
+
+libraryDependencies ++= Seq(
+  "org.scalatest" %% "scalatest" % "3.0.1" % "test")
