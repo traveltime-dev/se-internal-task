@@ -19,4 +19,5 @@ For this task the priorities are
   2) being readable.
 
 Hints and tips:
-  * An empty scalatest class skeleton was provided.
+  * An empty scalatest class skeleton was provided - scalatest is not required
+    but only provided as an example.
