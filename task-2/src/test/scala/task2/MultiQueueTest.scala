@@ -1,4 +1,4 @@
-package task2
+package task2.s
 
 import org.scalatest.{FreeSpec, MustMatchers}
 
