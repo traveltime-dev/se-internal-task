@@ -3,13 +3,21 @@ Task 2 - testing
 Your task is to design tests that would ensure that the functionality
 implemented by a custom *concurrent* data structure (MultiQueue) is correct. 
 
-The abstract interface of the queue is provided in task2.MultiQueue, the
-abstract interface should not be modified. No actual implementation of the queue
-is provided and you should treat the queue as black box.
+The abstract interface of the queue is provided in task2.{j.s}.MultiQueue, the
+abstract interface should not be modified. task2.s package contains the scala
+version of the class while task2.j the java one. Tests should only be written
+against one or the other (though scala is preferred).
+
+No actual implementation of the queue is provided and you should treat the queue
+as black box.
 
 Due to the scope of this task the test suite should only check for the
 correctness of the methods and their implementation, there's no need to test for
 statistical properties of dequeued entries or to do any performance tests. 
+
+An empty scalatest class skeleton was provided - scalatest is not required
+but only provided as an example, for the java version you can use any testing
+framework (and build system) that you wish.
 
 The queue is assumed to be used in a multi-threaded setting in a performance
 oriented environment.
@@ -19,5 +27,3 @@ For this task the priorities are
   2) being readable.
 
 Hints and tips:
-  * An empty scalatest class skeleton was provided - scalatest is not required
-    but only provided as an example.
