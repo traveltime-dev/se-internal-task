@@ -46,10 +46,10 @@ public interface MultiQueue<A> {
   public void insert(A element);
 
   /*
-   * Best effort polling for the smallest element (with respect to Ordering) of the queue.
+   * Best effort polling for the smallest element (with respect to natural ordering or a provided Comparator) of the queue.
    *
    *   * it might return `null` as a normal operating procedure even if `isEmpty` == false or `size` is close.
-   *   * it might return an element that's not strictly the smallest one (with respect to Ordering)
+   *   * it might return an element that's not strictly the smallest one (with respect to natural ordering/given comparator)
    */
   public A poll();
 }
