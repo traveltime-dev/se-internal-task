@@ -3,7 +3,7 @@ package task2.j;
 /*
  * This file presents the abstract interface for a concurrent multi-queue implementation of a prioritiy queue.
  *
- * The queue will be used in a tight loop in a performant-relevant setting with multiple consumer and producer
+ * The queue will be used in a tight loop in a performance-relevant setting with multiple consumer and producer
  * threads using it. The workers using this queue should check for both `isClosed` and the presence of `null`s
  * when polling the queue e.g:
  *
