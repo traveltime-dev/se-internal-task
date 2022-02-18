@@ -4,8 +4,8 @@
     1) Taking MORE time is fine but unnecessary
     2) Your solutions for the tasks will be used as a script for the technical
        interrview
-    3) We understand that you might be busy so do not be not be afraid of
-       committing a "not completed" task if you got stuck, as long as you're
-       open to followup questions and can show the skills tested in those tasks 
+    3) We understand that you might be busy so do not be afraid of committing a 
+       "not completed" task if you got stuck, as long as you're open to 
+       followup questions and can show the skills tested in those tasks 
        you should be fine
   * Read the README in each directory for further instructions.
