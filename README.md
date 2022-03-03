@@ -8,4 +8,6 @@
        "not completed" task if you got stuck, as long as you're open to 
        followup questions and can show the skills tested in those tasks 
        you should be fine
+    4) Even though, the tasks were written in scala in mind it's enough to be able 
+       to read scala syntax - the answers can be given in pseudo-code or in Java.
   * Read the README in each directory for further instructions.
